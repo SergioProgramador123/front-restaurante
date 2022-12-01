@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurante CUPBOP</title>
+    <script src="https://kit.fontawesome.com/b51f3e1195.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante <span class="amarillo">Cup</span><span class="rojo">bop</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-enabezado">
+                <div class="texto-encabezado">
+                    <h2>欢迎</h2>
+                    <a href="#" class="btn bordes">Nuestro menú</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="multimedia/video1.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+        <p class="Bienvenida">Bienvenido a!</p>
+            <h1>Restaurante CUPBOP</h1>
+            <P>Encuentra en CUPBOP lo mejor de la gastronomía asiática en Colombia, donde podrás vivir la experiencia a
+                través de nuestros sabores lo mejor de la cultura oriental.
+            </P>
+            <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img src="multimedia/plato3.webp" alt="Persona con un plato">
+            </div>
+            <div class="imagenes2">
+                <img src="multimedia/personas2.webp" alt="Otra persona con un plato">
+                <img src="multimedia/personas1.webp" alt="plato de nosotros">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Lo más solicitado</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-azul">Todos</button>
+            <button class="ensaladas btn btn-azul">Ensaladas</button>
+            <button class="sushi btn btn-azul">Sushi</button>
+            <button class="sopas btn btn-azul">Sopas</button>
+            <button class="postres btn btn-azul">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img src="multimedia/ensaladas1.jpg" alt="ensalada">
+                <h2>Coreana de algas</h2>
+                <p>Cebolla, ajo, algas wakame</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img src="multimedia/ensaladas2.webp" alt="ensalada">
+                <h2>Sunomono</h2>
+                <p>Camaron, hierbas naturales, algas marinas</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img src="multimedia/ensaladas3.webp" alt="ensalada">
+                <h2>Chirasi</h2>
+                <p>Raices, hierbas naturales, semillas de sésamo</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sushi">
+                <img src="multimedia/sushi1.jpg" alt="sushi">
+                <h2>Nigiri</h2>
+                <p>Aguacate, arroz, hoja nori y camarón</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sushi">
+                <img src="multimedia/sushi2.webp" alt="sushi">
+                <h2>Apanado</h2>
+                <p>Arroz, binagre, hoja nori y camarón</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sushi">
+                <img src="multimedia/sushi3.jpg" alt="sushi">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sopas">
+                <img src="multimedia/sopas1.jpg" alt="sopas">
+                <h2>SOPA PHO</h2>
+                <p>Cebolla, jengibre, carne, menta, zanahoria, frijoles</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sopas">
+                <img src="multimedia/sopas2.jpg" alt="sopas">
+                <h2>SOPA RAMEN</h2>
+                <p>Fideos, trigo, huevo, agua y fécula de papa</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="sopas">
+                <img src="multimedia/sopas3.jpg" alt="sopas">
+                <h2>TOM KHA</h2>
+                <p>leche de coco, cilantro, champiñón y jitomate cherry</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img src="multimedia/postres1.jpg" alt="postre">
+                <h2>Mochi</h2>
+                <p>Cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="multimedia/postres2.jpg" alt="postre">
+                <h2>Anmitsu</h2>
+                <p>anko, gelatina, algas verdes o rojas, dulces y frutas</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img src="multimedia/postres3.jpg" alt="postre">
+                <h2>Dango</h2>
+                <p>harina, papas cocidas, salsa de soja</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida asiática para empezar el día</h2>
+            <p>Empieza tu día comiendo deliciosa comida asiática </p>
+            <a href="multimedia/comida1.webp" class="btn btn-azul">Ordenar ahora</a>
+
+        </div>
+    </div>
+    <section class="chef contenedor">
+        <h2>Chef ejecutivo</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La excelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas
+                    y técnicas
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere blanditiis quod repudiandae quisquam
+                    officia adipisci ipsam. Non consequuntur, enim velit minus exercitationem ut sequi, odio officia
+                    molestiae magni obcaecati culpa!</p>
+                <a href="#" class="btn btn-azul">Leer biografía</a>
+            </div>
+            <div class="imagen-chef">
+                <img src="multimedia/chef.jpg" alt="Foto del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fa-solid fa-location-dot"></i>Calle 60sur #98a-07</p>
+            <P><i class="fa-regular fa-envelope"></i>asia@si.com</P>
+            <p><i class="fa-solid fa-phone"></i>+57 3133590456</p>
+            <div class="redes-sociales">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pepito" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" placeholder="Carvajal" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Télefono</label>
+                <input type="tel" placeholder="+57 3220099323" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-azul" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina">
+        <div class="contenedor-piepagina">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Calle 60sur #98a-07</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sábados y Jueves 7am - 11pm</p>
+                <p>+57 3189990476</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>Suscribete para recibir mas noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-azul" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2022 Restaurante CUPBOP, desarrollado por Sergio</p>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+const cerrarMenu = (boton, overlay) =>{
+    boton.addEventListener('click', ()=>{
+        navegacion.classList.add('ocultar');
+        overlay.remove();
+    });
+}
+
+
+navegacion.appendChild(btnCerrar);
+    cerrarMenu(btnCerrar, overlay);
